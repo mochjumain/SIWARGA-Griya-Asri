@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SiWarga Digital - Perum Griya Asri</title>
+    <style>
+        /* Mengatur agar halaman memenuhi seluruh layar tanpa scroll ganda */
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #f8f9fa;
+        }
+        /* Membuat iframe mengisi 100% layar HP secara penuh */
+        .fullscreen-app {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Iframe memanggil Web App Google Apps Script Anda -->
+    <iframe class="fullscreen-app" src="https://script.google.com/macros/s/AKfycbwIeFHQAchn2kqu5MSXPSA9rTXT1hzWZRH-nFeLgtG7GlHLL1ZMhkEBdZciAbNnGyLX/exec"></iframe>
+
+</body>
+</html>
